@@ -1,1 +1,12 @@
-
+Calendar = 
+Var StartDate = Date(2020,1,1)
+Var EndDate = Date(2022,12,31)
+return
+ADDCOLUMNS(CALENDAR(StartDate,EndDate)
+, "Year",YEAR([DATE])
+,"Quarter","Q"& QUARTER([DATE])
+,"Month Number0", MONTH([DATE])
+,"Month", FORMAT([Date],"mmm")
+,"Week Day Number", WEEKDAY([DATE],2)
+,"Week", FORMAT([DATE],"dddd")
+,"Day", DAY([DATE]))
