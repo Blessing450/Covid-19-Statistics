@@ -1,4 +1,4 @@
-# Power BI Visualisation
+# Power BI Visualization
 Description:
 The COVID-19 Daily Cases dataset provideed information on
 the daily reported COVID-19 cases, including the number of
